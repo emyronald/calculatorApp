@@ -26,8 +26,8 @@ body {
 }
 button {
   flex: 1;
-  border-radius: 17px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.4);
   background-color: black;
   color: white;
   font-weight: 900;
@@ -60,4 +60,5 @@ main {
   font-family: "Courier New", Courier, monospace;
   font-size: x-large;
   color: rgba(255, 255, 255);
+  font-weight: bold;
 }
