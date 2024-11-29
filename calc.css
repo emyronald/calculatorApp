@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  height: 16em;
+  gap: 2px;
+  margin: 5px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  gap: 2px;
+  flex: 1;
+}
+button {
+  flex: 1;
+  border-radius: 17px;
+  border: 1px solid rgba(255, 255, 255, 0.836);
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  font-size: larger;
+}
+.ac-btn,
+.equals-btn {
+  flex: 2;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(30, 31, 48);
+  width: 15em;
+  border: 0.3em solid black;
+  border-radius: 5px;
+}
+.display {
+  height: 4em;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  background-color: rgb(74, 73, 92);
+  padding: 0.4em;
+  border-radius: 5px 5px 0 0;
+}
+
+.input-display {
+  flex: 1;
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+  color: rgba(255, 255, 255, 0.836);
+}
