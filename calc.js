@@ -86,7 +86,7 @@ allClear.addEventListener("click", () => {
 delBtn.addEventListener("click", () => {
   inputDisplay.textContent = inputDisplay.textContent.slice(0, -1);
   for (let i = -1; i >= inputDisplay.textContent.length * -1; i--) {
-    if (isNaN(Number(inputDisplay.textContent.at(-1)))) {
+    if (isNaN(Number(inputDisplay.textContent.at(-1))) && inputDisplay.textContent.at(-1)!= '.') {
       inputDisplay.textContent = inputDisplay.textContent.slice(0, -1);
     }
   }
